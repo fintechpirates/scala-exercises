@@ -14,7 +14,7 @@ case class SimpleRNG(seed: Long) extends RNG {
 def nonNegativeInt(rng: RNG): (Int, RNG) = {
   val (randomInt, nextRNG) = rng.nextInt
   val normalized = if (randomInt < 0) math.abs(randomInt + 1) else randomInt
-  (randomInt, nextRNG)
+  (normalized, nextRNG)
 }
 
 def double(rng: RNG): (Double, RNG) = {
