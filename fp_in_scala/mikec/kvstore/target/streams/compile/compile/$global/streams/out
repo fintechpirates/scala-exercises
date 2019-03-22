@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/michael.chua/Desktop/edx/kvstore/src/main/scala/kvstore/Replica.scala:120:54: discarded non-Unit value[0m
+[0m[[0m[33mwarn[0m] [0m[0m    context.system.scheduler.scheduleOnce(1 seconds) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

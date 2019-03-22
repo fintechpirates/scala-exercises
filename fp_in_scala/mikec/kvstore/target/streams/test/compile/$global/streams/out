@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/michael.chua/Desktop/edx/kvstore/src/test/scala/kvstore/Step4_SecondaryPersistenceSpec.scala:30:12: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case other =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/michael.chua/Desktop/edx/kvstore/src/test/scala/kvstore/Step4_SecondaryPersistenceSpec.scala:33:42: unreachable code due to variable pattern 'other' on line 30[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case Persist("k1", Some("v1"), id) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
