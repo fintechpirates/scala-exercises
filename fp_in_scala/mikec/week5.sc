@@ -80,7 +80,7 @@ object Par {
     def append[A,B](head: Par[A], accumulated: Par[List[A]]): Par[List[A]] =
       map2Timeouts(head, accumulated)(_ :: _)
 
-    ps.foldRight(unit(List.empty[A]))(append)
+    fork(ps.foldRight(unit(List.empty[A]))(append))
   }
 
   // 7.6
